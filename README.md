@@ -17,3 +17,5 @@
 - Для запуска серверной части <code>npm run dev</code>
 
 ## Спасибо за потраченное на проверку время!
+
+![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
