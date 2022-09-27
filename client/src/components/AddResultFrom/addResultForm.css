@@ -1,0 +1,43 @@
+.addform {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.addform__title {
+  font-size: 16px;
+  color: rgb(100, 100, 100)
+}
+
+.addform__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.addform__cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addform__input {
+  line-height: 1.3;
+  padding: .6em .8em .5em .8em;
+  border: 1px solid #aaa;
+  max-width: 130px;
+  margin-right: 10px;
+}
+
+.addform__input:focus {
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  outline: none;
+}
+
+.addform__button {
+  text-align: center;
+  padding: .6em 2.2em .5em 2.2em;
+  border: 1px solid #aaa;
+  transition: .3s ease-in;
+}

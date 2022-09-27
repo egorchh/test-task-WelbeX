@@ -1,0 +1,57 @@
+.table {
+  display: table;
+  width: 80%;
+  margin: 20px 0 0 0;
+  border: 2px solid black;
+}
+
+.table__row {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  position: relative;
+}
+
+.table__row:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, .09);
+}
+
+.table__column {
+  font-family: "Gilroy-Bold";
+  padding: .75rem;
+  vertical-align: top;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.table__column_active {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.table__column_active:hover {
+  opacity: 0.6;
+}
+
+.table__down {
+  padding: .75rem;
+  vertical-align: top;
+  text-align: center;
+}
+
+.table-section__title {
+  display: none;
+}
+
+.table__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.name {
+  width: 250px;
+}
