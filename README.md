@@ -18,4 +18,4 @@
 
 ## Спасибо за потраченное на проверку время!
 
-![Alt Text](https://i.gifer.com/Aq.gif)
+<img src="https://i.gifer.com/Aq.gif" />
